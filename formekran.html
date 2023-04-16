@@ -1,0 +1,944 @@
+<!DOCTYPE html>
+<!-- Website template by freewebsitetemplates.com -->
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content=
+        "width=device-width, initial-scale=1.0">
+    <title>Anket ve Görüş</title>
+        <style type="text/css">
+        [type="date"] {
+      background:#9CCC65 url(images/96843.png)  98% 50% no-repeat ;
+    }
+    [type="date"]::-webkit-inner-spin-button {
+      display: none;
+    }
+    [type="date"]::-webkit-calendar-picker-indicator {
+      opacity: 0;
+    }
+
+    /* custom styles */
+    body {  
+      font: 13px Calibri;
+    }
+    label {
+      display: block;
+    }
+    input {
+      border: 1px solid #c4c4c4;
+      background-color: #fff;  
+      width: 95px;
+    }
+
+    .coc-block-row {
+        width: 100%;
+        /*display:table-row;*/
+    }
+    .coc-block {
+        
+    }
+    .coc-block-label {
+    
+     
+    }
+    .coc-input {
+
+    font-size: 0.8rem;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: none;
+    padding: 13px 10px;
+    width: 330px;
+    margin-bottom: 20px;
+    box-shadow: inset 0px 2px 3px #808000;
+    clear: both;
+     
+     /* variations */
+    }
+    .coc-form {
+     padding-top: 0px;
+     padding-left: 0px;
+    }
+
+
+        /* Styling the Body element i.e. Color,
+        Font, Alignment */
+        body {
+            background-color: #05c46b;
+            font-family: Calibri;
+            text-align: center;
+        }
+ 
+        /* Styling the Form (Color, Padding, Shadow) */
+        form {
+
+            background-color: #fff;
+            max-width: 500px;
+            margin: -180px auto;
+            padding: 30px 20px;
+            box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+        }
+ 
+        /* Styling form-control Class */
+        .form-control {
+            color:white;
+            text-align: left;
+            margin-bottom: 15px;
+        }
+ 
+        /* Styling form-control Label */
+        .form-control label {
+            display: block;
+            margin-bottom: 15px;
+        }
+ 
+        /* Styling form-control input,
+        select, textarea */
+        .form-control input,
+        .form-control select,
+        .form-control textarea {
+
+            resize: none;
+            border-radius: 3px;
+            font-family: calibri;
+            padding: 10px;
+            display: block;
+            width: 95%;
+        }
+ 
+        /* Styling form-control Radio
+        button and Checkbox */
+        .form-control input[type="radio"],
+        .form-control input[type="checkbox"] {
+            display: inline-block;
+            width: auto;
+        }
+ 
+        /* Styling Button */
+        button {
+            background-color: #05c46b;
+            border: 1px solid #777;
+            border-radius: 100px;
+            font-family: inherit;
+            font-size: 21px;
+            display: block;
+            width: 100%;
+            margin-top: 50px;
+            margin-bottom: 20px;
+        }
+
+        .container {
+    width: 406px;
+    max-width: 406px;
+    margin: 165px;
+}
+
+#signup {
+    padding-top:0px;
+    padding-bottom:85px;
+    padding-right:600px;
+    padding-left:600px;
+    
+    background: -moz-linear-gradient(
+        top,
+        #a4b0cb 0%,
+        #b9c5dd);
+    background: -webkit-gradient(
+        linear, left top, left bottom, 
+        from(#607308),
+        to(#1e2500));
+    box-shadow: 
+        0px 0px 0px 0px #000, 
+        0px 4px 20px rgba( 0,0,0,0.33 );
+    -moz-border-radius: 5px;
+    -webkit-border-radius:
+    border-radius: 5px;
+    display: table;
+    position: static;
+}
+
+#signup .header {
+    margin-bottom: 20   px;
+}
+
+#signup .header h3 {
+    color: #808000;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#signup .header p {
+    color: #808000;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+#signup .sep {
+   
+    background: #808000;
+    width: 406px;
+    height: 2px;
+    margin: 0px -25px;
+}
+
+#signup .inputs {
+    margin-top: 0px;
+}
+
+#signup .inputs label {
+    color:  #ffffff;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-bottom: 7px;
+    display: block;
+}
+
+input::-webkit-input-placeholder {
+    color:    #000;
+}
+
+input:-moz-placeholder {
+    color:    #000;
+}
+
+#signup .inputs input[type=text], input[type=text] {
+    background: #9CCC65;
+    font-size: 0.8rem;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: none;
+    padding: 13px 10px;
+    width: 330px;
+    margin-bottom: 20px;
+    box-shadow: inset 0px 2px 3px #808000;
+    clear: both;
+}
+
+#signup .inputs input[type=email], input[type=password] {
+    background: #9CCC65;
+    font-size: 0.8rem;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: none;
+    padding: 13px 10px;
+    width: 330px;
+    margin-bottom: 20px;
+    box-shadow: inset 0px 2px 3px #808000;
+    clear: both;
+}
+
+
+
+#signup .inputs input[type=email], input[type=text] {
+    background: #9CCC65;
+    font-size: 0.8rem;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 5px;
+    border: none;
+    padding: 13px 10px;
+    width: 330px;
+    margin-bottom: 20px;
+    box-shadow: inset 0px 2px 3px #808000;
+    clear: both;
+}
+
+
+#signup .inputs input[type=email]:focus, input[type=password]:focus  {
+    background: #fff;
+    box-shadow: 0px 0px 0px 3px #808000, inset 0px 2px 3px #808000, 0px 5px 5px #808000;
+    outline: none;   
+}
+#signup .inputs input[type=text]:focus{
+    background: #fff;
+    box-shadow: 0px 0px 0px 3px #808000, inset 0px 2px 3px #808000, 0px 5px 5px #808000;
+    outline: none;
+}
+#signup .inputs input[type=date]:focus{
+    background: #fff;
+    box-shadow: 0px 0px 0px 3px #808000, inset 0px 2px 3px #808000, 0px 5px 5px #808000;
+    outline: none;
+}
+
+#signup .inputs .checkboxy {
+    display: block;
+    position: static;
+    height: 25px;
+    margin-top: 10px;
+    clear: both;
+}
+
+#signup .inputs input[type=checkbox] {
+    float: left;
+    margin-right: 10px;
+    margin-top: 3px;
+}
+
+#signup .inputs label.terms {
+    float: left;
+    font-size: 14px;
+    font-style: italic;
+}
+
+#signup .inputs #submit {
+    width: 100%;
+    margin-top: 20px;
+    padding: 15px 0;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-align: center;
+    text-decoration: none;
+        background: -moz-linear-gradient(
+        top,
+        #b9c5dd 0%,
+        #a4b0cb);
+    background: -webkit-gradient(
+        linear, left top, left bottom, 
+        from(#607308),
+        to(#1e2500));
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #1e2500;
+    -moz-box-shadow:
+        0px 5px 5px rgba(000,000,000,0.1),
+        inset 0px 1px 0px rgba(255,255,255,0.5);
+    -webkit-box-shadow:
+        0px 5px 5px rgba(000,000,000,0.1),
+        inset 0px 1px 0px rgba(255,255,255,0.5);
+    box-shadow:
+        0px 5px 5px rgba(000,000,000,0.1),
+        inset 0px 1px 0px rgba(255,255,255,0.5);
+    text-shadow:
+        0px 1px 3px rgba(000,000,000,0.3),
+        0px 0px 0px rgba(255,255,255,0);
+    display: table;
+    position: static;
+    clear: both;
+}
+
+#signup .inputs #submit:hover {
+    background: -moz-linear-gradient(
+        top,
+        #a4b0cb 0%,
+        #b9c5dd);
+    background: -webkit-gradient(
+        linear, left top, left bottom, 
+        from(#1e2500),
+        to(#607308));
+}
+    </style>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+<body>
+
+    <div id="header">
+        <div>
+            <div id="logo">
+                <a href="index.html"><img src="images/logo2.png" alt="Logo" /></a>
+            </div>
+            <div id="navigation">
+                <div>
+                    <ul>
+                        <li class="current"><a href="index.html">Ana Sayfa</a></li>
+                        <li><a href="about.html">Hakkında</a></li>
+                        <li><a href="contact.html">İletişim</a></li>
+                        <li><a href="whychoose.html">Neden Biz?</a></li>
+                        <li><a href="blog.html">Çevre</a></li>
+                        <li><a href="formekran.html">Anket</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br><br><br>
+
+<div class="container">
+
+    <form id="signup">
+
+        <div class="header">
+        
+            
+            
+        </div>
+        
+        
+            <h2 style="color:white; text-align:center">Morpho Destek ve Görüş Anketi</h2>
+     <p style="color:white;">═════════════════════════════════</p>
+    <!-- Create Form -->
+    <form id="form">
+            
+        <!-- Details -->
+        <div class="inputs">
+            
+ 
+            <!-- Input Type Text -->
+            
+        <div class="inputs">
+            
+ 
+            <!-- Input Type Text -->
+            
+        </div>
+  
+
+        <div class="inputs">
+            <label for="email" id="label-email">
+                E-MAİL
+            </label>
+ 
+            <!-- Input Type Email-->
+            <input type="email"
+                   id="email"
+                   placeholder="E-mail'inizi giriniz" />
+        </div>
+  
+    
+        <div class="coc-form">
+        <div class="coc-block-row">
+            <label class="coc-block-label" for="dateofbirth">DOĞUM TARİHİNİZ</label>
+        <div class="coc-block">
+            <input class="coc-input" type="date" name="dateofbirth" id="dateofbirth">
+        </div>
+        </div>
+        </div>
+        </div>
+
+       
+        <p style="color:white;">═════════════════════════════════</p>
+        
+  
+        <div class="form-control">
+            <label style="text-align: center;">
+                Sitenin temasını ne kadar beğendiniz?
+            </label>
+ 
+            <!-- Input Type Radio Button -->
+            <label for="recommed-1">
+                <input type="radio"
+                       id="recommed-0"
+                       name="son1"
+                       >Çok güzel, beğendim</input>
+            </label>
+                        <label for="recommed-1">
+                <input type="radio"
+                       id="recommed-1"
+                       name="son1"
+                       >Güzel</input>
+            </label>
+            <label for="recommed-2">
+                <input type="radio"
+                       id="recommed-2"
+                       name="son1"
+                       >İdare eder</input>
+            </label>
+            <label for="recommed-3">
+                <input type="radio"
+                       id="recommed-3"
+                       name="son1"
+                       >Sevmedim, bence yetersiz</input>
+            </label>
+        </div>
+
+        <p style="color:white;">═════════════════════════════════</p>
+       
+
+        
+       
+  
+        <div class="form-control">
+            <label  style="text-align: center;">
+                İletişim bölümü ile ilgili memnuniyet puanınız.
+            </label>
+ 
+            <!-- Input Type Radio Button -->
+            <label for="">
+                <input type="radio"
+                       id="recommed-1"
+                       name="zort2" 
+                       >Çok iyi</input>
+            </label>
+                        <label for="">
+                <input type="radio"
+                       id="recommed-1"
+                       name="zort2"
+                       >İyi</input>
+            </label>
+            <label for="">
+                <input type="radio"
+                       id="recommed-1"
+                       name="zort2" 
+                       >İdare eder</input>
+            </label>
+                        <label for="">
+                <input type="radio"
+                       id="recommed-1"
+                       name="zort2"
+                       >Sevmedim</input>
+            </label>
+            <label for="">
+                <input type="radio"
+                       id="recommed-1"
+                       name="zort2" 
+                       >Güzel bulmadım</input>
+            </label>
+                        <label for="">
+                <input type="radio"
+                       id="recommed-1"
+                       name="zort2"
+                       >Berbat</input>
+            </label>
+            
+        </div>
+
+        <p style="color:white;">═════════════════════════════════</p>
+       
+  
+        <div class="form-control">
+            <label  style="text-align: center;">
+                Bu siteden nasıl haberdar oldunuz?
+            </label>
+ 
+            <!-- Input Type Radio Button -->
+            <label for="">
+                <input type="radio"
+                       id="recommed-1"
+                       name="zort23" 
+                       >Sosyal Medya</input>
+            </label>
+                        <label for="">
+                <input type="radio"
+                       id="recommed-1"
+                       name="zort23"
+                       >Akraba</input>
+            </label>
+            <label for="">
+                <input type="radio"
+                       id="recommed-1"
+                       name="zort23" 
+                       >Arkadaş</input>
+            </label>
+                        <label for="">
+                <input type="radio"
+                       id="recommed-1"
+                       name="zort23"
+                       >Reklam</input>
+            </label>
+            <label for="">
+                <input type="radio"
+                       id="recommed-1"
+                       name="zort23"
+                       >Diğer</input>
+            </label>
+            
+        </div>
+
+        <div class="form-control">
+            <label style="color:white; text-align:center" for="comment">
+                Diğer ise nasıl haberdar oldunuz?
+            </label>
+
+            <!-- multi-line text input control -->
+            <textarea name="comment" id="comment" placeholder="Nasıl haberdar oldunuz?"></textarea>
+            
+        </div>
+
+        <p style="color:white;">═════════════════════════════════</p>
+       
+       <div class="form-control">
+            <label  style="text-align: center;">
+                Sitemizde yer alan görselleri yeterli?
+            </label>
+ 
+            <!-- Input Type Radio Button -->
+            <label for="">
+                <input type="radio"
+                       id="recommed-1"
+                       name="zort26" 
+                       >Evet</input>
+            </label>
+                        <label for="">
+                <input type="radio"
+                       id="recommed-1"
+                       name="zort26"
+                       >Hayır</input>
+            </label>
+            
+        </div>
+		<p style="color:white;">═════════════════════════════════</p>
+  
+        <div class="form-control">
+            <label  style="text-align: center;">
+                Çevreci biri misiniz?
+            </label>
+ 
+            <!-- Input Type Radio Button -->
+            <label for="">
+                <input type="radio"
+                       id="recommed-1"
+                       name="zort24" 
+                       >Evet</input>
+            </label>
+                        <label for="">
+                <input type="radio"
+                       id="recommed-1"
+                       name="zort24"
+                       >Hayır</input>
+            </label>
+            
+        </div>
+
+        
+        <p style="color:white;">═════════════════════════════════</p>
+
+        <div class="form-control">
+            <label  style="text-align: center;">
+                Yere izmarit, sakız vb. şeyler atar mısınız?
+            </label>
+ 
+            <!-- Input Type Radio Button -->
+            <label for="">
+                <input type="radio"
+                       id="recommed-1"
+                       name="zort24" 
+                       >Evet</input>
+            </label>
+                        <label for="">
+                <input type="radio"
+                       id="recommed-1"
+                       name="zort24"
+                       >Hayır</input>
+            </label>
+            
+        </div>
+
+        
+        <p style="color:white;">═════════════════════════════════</p>
+
+        
+        <div class="form-control">
+            <label  style="text-align: center;">
+                Hiç ağaç diktiniz mi?
+            </label>
+ 
+            <!-- Input Type Radio Button -->
+            <label for="">
+                <input type="radio"
+                       id="recommed-1"
+                       name="zort25" 
+                       >Evet</input>
+            </label>
+                        <label for="">
+                <input type="radio"
+                       id="recommed-1"
+                       name="zort25"
+                       >Hayır</input>
+            </label>
+            
+        </div>
+
+        <p style="color:white;">═════════════════════════════════</p>
+
+        
+       
+  
+        
+         <div class="form-control">
+            <label  style="text-align: center;">
+               Çevreyi temizlemekle görevli kişilerin işlerinden memnun kaldınız mı?
+            </label>
+ 
+            <!-- Input Type Radio Button -->
+            <label for="">
+                <input type="radio"
+                       id="recommed-1"
+                       name="zort27" 
+                       >Çok memnun kaldım</input>
+            </label>
+                        <label for="">
+                <input type="radio"
+                       id="recommed-1"
+                       name="zort27"
+                       >Memnun kaldım</input>
+            </label>
+            <label for="">
+                <input type="radio"
+                       id="recommed-1"
+                       name="zort27" 
+                       >Nötrüm</input>
+            </label>
+                        <label for="">
+                <input type="radio"
+                       id="recommed-1"
+                       name="zort27"
+                       >Memnun kalmadım</input>
+            </label>
+            <label for="">
+                <input type="radio"
+                       id="recommed-1"
+                       name="zort27" 
+                       >Hiç memnun kalmadım</input>
+            </label>
+
+            
+        </div>
+
+       <p style="color:white;">═════════════════════════════════</p>
+
+        <div class="form-control">
+            <label  style="text-align: center;">
+                Çevreyi kirletenleri uyarıyor musunuz?
+            </label>
+ 
+            <!-- Input Type Radio Button -->
+            <label for="">
+                <input type="radio"
+                       id="recommed-1"
+                       name="zort28" 
+                       >Evet</input>
+            </label>
+                        <label for="">
+                <input type="radio"
+                       id="recommed-1"
+                       name="zort28"
+                       >Hayır</input>
+            </label>
+            
+        </div>
+<p style="color:white;">═════════════════════════════════</p>
+        
+        <div class="form-control">
+            <label  style="text-align: center;">
+                Çevreci biri misiniz?
+            </label>
+ 
+            <!-- Input Type Radio Button -->
+            <label for="">
+                <input type="radio"
+                       id="recommed-1"
+                       name="zort29" 
+                       >Oldukça</input>
+            </label>
+                        <label for="">
+                <input type="radio"
+                       id="recommed-1"
+                       name="zort29"
+                       >Eh işte</input>
+            </label>
+            <label for="">
+                <input type="radio"
+                       id="recommed-1"
+                       name="zort29" 
+                       >Pek sayılmaz</input>
+            </label>
+                        <label for="">
+                <input type="radio"
+                       id="recommed-1"
+                       name="zort29"
+                       >Hayır</input>
+            </label>
+        </div>
+
+         
+
+        <p style="color:white;">═════════════════════════════════</p>
+        
+
+        <div class="form-control">
+            <label style="text-align: center;">Hangi kıtada yaşıyorsunuz?</label>
+                
+            
+            <!-- Input Type Checkbox -->
+            <label for="inp-1">
+                <input type="checkbox"
+                       name="inp">Asya</input></label>
+            <label for="inp-2">
+                <input type="checkbox"
+                       name="inp">Avrupa</input></label>
+            <label for="inp-3">
+                <input type="checkbox"
+                       name="inp">Afrika</input></label>
+            <label for="inp-4">
+                <input type="checkbox"
+                       name="inp">Antartika</input></label>
+            <label for="inp-5">
+                <input type="checkbox"
+                       name="inp">Kuzey Amerika</input></label>
+            <label for="inp-6">
+                <input type="checkbox"
+                       name="inp">Güney Amerika</input></label>
+            <label for="inp-7">
+                <input type="checkbox"
+                       name="inp">Avustralya</input></label>
+   
+         
+   
+        <p style="color:white;">═════════════════════════════════</p>
+
+        <div class="form-control">
+            
+        	<div class="form-control">
+            <label style="color:white; text-align:center" for="comment">
+                Çevreyi kirletenlerin cezası ne olmalı?
+            </label>
+
+            <!-- multi-line text input control -->
+            <textarea name="comment" id="comment" placeholder="Görüşlerinizi belirtiniz"></textarea>
+            
+        </div>   
+            <!-- multi-line text input control -->
+           
+            
+        </div>
+ <p style="color:white;">═════════════════════════════════</p>
+
+ <div class="form-control">
+            
+        	<div class="form-control">
+            <label style="color:white; text-align:center" for="comment">
+                Çevreyi temizlemenin bir ödülü olmalı mı?
+            </label>
+
+            <!-- multi-line text input control -->
+            <textarea name="comment" id="comment" placeholder="Görüşlerinizi belirtiniz"></textarea>
+            
+        </div>   
+            <!-- multi-line text input control -->
+           
+            
+        </div>
+ <p style="color:white;">═════════════════════════════════</p>
+  
+        <div class="form-control">
+            <label style="color:white; text-align:center" for="comment">
+                Eklemek istedikleriniz
+            </label>
+
+ 
+            <!-- multi-line text input control -->
+            <textarea name="comment" id="comment"
+                placeholder="Görüş ve düşüncelerinizi bizimle paylaşın"></textarea>
+
+                <p style="color:white;">═════════════════════════════════</p>
+  
+        <div class="form-control">
+            <label  style="text-align: center;">
+                Doğa derneklerine bir desteğiniz var mı?
+            </label>
+ 
+            <!-- Input Type Radio Button -->
+            <label for="">
+                <input type="radio"
+                       id="recommed-1"
+                       name="zırt1" 
+                       >Evet</input>
+            </label>
+                        <label for="">
+                <input type="radio"
+                       id="recommed-1"
+                       name="zırt1"
+                       >Hayır</input>
+            </label>
+            
+        </div>
+
+        <div class="form-control">
+            <label style="color:white; text-align:center" for="comment">
+                Cevabınız evet ise;
+            </label>
+
+            <!-- multi-line text input control -->
+            <textarea name="comment" id="comment" placeholder="Belirtiniz"></textarea>
+            
+        </div>
+
+        <p style="color:white;">═════════════════════════════════</p>
+        <div class="form-control">
+            <label  style="text-align: center;">
+               Anketi yararlı buldunuz mu
+            </label>
+ 
+            <!-- Input Type Radio Button -->
+            <label for="">
+                <input type="radio"
+                       id="recommed-1"
+                       name="zort299" 
+                       >Evet</input>
+            </label>
+                        <label for="">
+                <input type="radio"
+                       id="recommed-1"
+                       name="zort299"
+                       >Hayır</input>
+            </label>
+        </div>
+<label style="color:white; text-align:center" for="comment">
+                Ankete ne gibi sorular eklememizi istersiniz?
+            </label>
+
+ 
+            <!-- multi-line text input control -->
+            <textarea name="comment" id="comment"
+                placeholder="Görüşlerinizi belirtiniz"></textarea>
+            
+        </div>
+  <p style="color:white;">═════════════════════════════════</p>
+
+        <!-- Multi-line Text Input Control -->
+        <div class="checkboxy"><label style="color: white;">Bilgilerimin paylaşılmasını onaylıyorum</label>
+                <input name="cecky" id="checky" value="1" type="checkbox" />
+            </div>
+        <div class="inputs">
+
+            <a href="anketbitti.html" id="submit" href="#">ANKETİ TAMAMLA</a>
+        
+        </div>
+    </form>
+        
+                </div>
+                <br><br><br><br><br><br>
+            </form>
+        </div>
+    </div>
+    <div id="footer">
+        <div>
+            <div class="first">
+                <h3><a href="index.html">Ecothunder</a></h3>
+                <p>Morpho®</p>
+                <div>
+                    <p>Telefon : <span>+90 500 000 00 00</span></p>
+                    <p>Fax : <span>1234567890</span></p>
+                    <p>E_mail : <span>mentaj1123@gmail.com</span></p>
+                </div>
+            </div>
+            <div>
+                <h3>Bize Sosyal Medyadan Ulaşın!</h3>
+                <p>Sosyal medya hesaplarımızdan bizlere destek olmayı unutmayın.</p>
+                <div>
+                    <a href="https://en.wikipedia.org/wiki/Morpho" class="facebook" target="_blank"></a>
+                    <a href="https://www.instagram.com/mefesahinn/?r=nametag" class="twitter" target="_blank"></a>
+                    <a href="https://www.linkedin.com/company/cevko/?originalSubdomain=tr" class="linked-in" target="_blank"></a>
+                </div>
+            </div>
+            <div>
+                <h3>Düşüncelerini Bizimle Paylaş!</h3>
+                <p>Daha verimli çalışmamız için ve daha fazla veriye ulaşmamız için bize ulaşın.</p>
+                <form action="#">
+                    <label for="subscribe"><input type="text" id="subscribe" maxlength="30" value="email address" /></label>
+                    <input class="submit" type="submit" value="" />
+                </form>
+                <p></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
